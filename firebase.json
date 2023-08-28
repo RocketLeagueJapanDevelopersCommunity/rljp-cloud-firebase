@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "/**",
+        "run": {
+          "serviceId": "blog-cloudrun",
+          "region": "asia-northeast1",
+          "pinTag": true
+        }
+      }
+    ]
+  }
+}
