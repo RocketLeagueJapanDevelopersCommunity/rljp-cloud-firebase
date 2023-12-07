@@ -20,6 +20,15 @@
         ]
       },
       {
+        "source": "/articles/**/draft",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "private, no-store, no-cache, must-revalidate"
+          }
+        ]
+      },
+      {
         "source": "**/*.@(js|css)",
         "headers": [
           {
